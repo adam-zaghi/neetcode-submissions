@@ -28,7 +28,9 @@ class Solution {
             
             if(bucket[i]!= null){
                 for(int n:bucket[i]){
+                    //affectation + incre
                     ans[count++]=n;
+                    
                     
                     if(count>=k){
                         break;
